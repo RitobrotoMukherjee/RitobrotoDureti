@@ -12,8 +12,13 @@ a {
     color: black
 }
 
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(238, 233, 228);
 }
 
@@ -60,4 +65,52 @@ nav > ul {
     nav > ul {
         flex-direction: column;
     }
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    margin-top: 70px;
+}
+
+#home > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#home input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+  
+#home input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #880707;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#feature-section {
+    height: 150px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.feature-element{
+    width: 100%;
+    margin-left: 250px;
+    padding: 25px 0px;
 }
